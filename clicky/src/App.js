@@ -82,8 +82,8 @@ class App extends React.Component {
           if(this.state.score === 11){
             this.handleWin();
           }
-          this.shuffle(this.state.characters);
         }
+        this.shuffle(this.state.characters);
         return{clicked: newArray,
                score: this.state.score + 1
         }
